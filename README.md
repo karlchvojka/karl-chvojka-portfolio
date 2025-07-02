@@ -1,4 +1,17 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Karl Chvojka's Portfolio
+
+Karl Chvojka's portfolio website: A basic SPA to display projects and websites and etc.
+
+## Requirements
+
+This is a NextJS bootstrapped SPA website using the current latest version of NextJS.
+
+At the time, the current packages are (as of 2025-07-02):
+
+    - Next: 15.3.4 (Current Latest)
+    - React: 19.0.0
+    - TypeScript: 5
+    - Eslint: 9
 
 ## Getting Started
 
