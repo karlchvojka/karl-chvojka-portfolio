@@ -10,3 +10,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0), 
     - Adding a changelog to the project
     - Creating a repo for the project
     - Removing Template and NextJS branding code from bootstrapped code
+    - Setting up base project folder and file structure
