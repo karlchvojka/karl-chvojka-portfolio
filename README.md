@@ -33,6 +33,22 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Project Structure
+
+.                       # Root folder - Project Config
+├── public              # public folder - Files for public access
+└── src                 # src - Main app folder
+    ├── app             # app - Contains App Global components
+    ├── components      # components - Components to be accessed across the app
+    |   ├── features    # features - Components refrenced from multiple components
+    |   ├── layout      # layout - Components used for page and section layout
+    |   |   └── Header  # Header - Header Component
+    |   └── ui          # ul - Components used across the app (buttons etc)
+    ├── lib             # lib - Components for external and state functionality
+    ├── styles          # styles - Global CSS styles
+    |   └── themes      # themes - Styles used to effect entire app as a theme (Light, Dark etc)
+    └── utils           # utils - Internal logic
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
