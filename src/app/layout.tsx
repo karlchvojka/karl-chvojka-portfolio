@@ -1,30 +1,32 @@
+/* NextJS Imports */
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+/* End NextJS Imports */
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+/* Style Imports */
+import "styles/globals.css";
+import { montserrat_init } from  "styles/fonts.tsx";
+/* End Style Imports */
 
 export const metadata: Metadata = {
   title: "Karl Chvojka's Portfolio",
-  description: "Web Development Portfolio of Karl Chvojka",
+  description: "Karl Chvojka's Web Developer Portfolio",
 };
 
+/**
+ * RootLayout
+ *
+ * Root Layout Component 
+ *
+ * @returns RootLayout Component
+ */
 export default function RootLayout({
   children,
-}: Readonly<{
+}: Readonly <{
   children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${montserrat_init.variable} antialiased`}>
         {children}
       </body>
     </html>

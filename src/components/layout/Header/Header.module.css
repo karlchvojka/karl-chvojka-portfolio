@@ -1,0 +1,30 @@
+.headerWrap {
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 35px 130px;
+  justify-content: space-between;
+  left: 0;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+}
+
+.navWrap {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 130px;
+
+  a:link, a:visited {
+    color: grey;
+    font-family: var(--font-montserrat);
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  a:hover, a:active {
+    color: orange;
+  }
+}
