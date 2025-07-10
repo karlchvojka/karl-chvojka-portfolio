@@ -1,7 +1,18 @@
+/* Component Imports */
 import Header from "components/layout/Header/Header.tsx";
+/* End Component Imports */
 
+/* Style Imports */
 import styles from "./page.module.css";
+/* End Style Imports */
 
+/**
+ * Home
+ *
+ * Home Component
+ *
+ * @returns Home Component
+ */
 export default function Home() {
   return (
     <div className={styles.page}>

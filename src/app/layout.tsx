@@ -1,15 +1,27 @@
+/* NextJS Imports */
 import type { Metadata } from "next";
+/* End NextJS Imports */
+
+/* Style Imports */
 import "styles/globals.css";
 import { montserrat_init } from  "styles/fonts.tsx";
+/* End Style Imports */
 
 export const metadata: Metadata = {
   title: "Karl Chvojka's Portfolio",
   description: "Karl Chvojka's Web Developer Portfolio",
 };
 
+/**
+ * RootLayout
+ *
+ * Root Layout Component 
+ *
+ * @returns RootLayout Component
+ */
 export default function RootLayout({
   children,
-}: Readonly<{
+}: Readonly <{
   children: React.ReactNode;
 }>) {
   return (
@@ -20,5 +32,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-

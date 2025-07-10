@@ -1,5 +1,14 @@
+/* Font Imports */
 import { Montserrat } from 'next/font/google';
+/* End Font Imports */
 
+/**
+ * montserrat_init
+ *
+ * Montserrat Font settings
+ *
+ * @returns montserrat_init object
+ */
 export const montserrat_init = Montserrat({
   display: 'swap',
   subsets: ['latin'],
