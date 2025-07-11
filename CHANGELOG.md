@@ -14,3 +14,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0), 
     - Added Project Structure to Readme
     - Installed Normalize.css
     - Implement Header component
+
+## [0.0.1] - 2025-07-10
+- Implement Hero Image Component

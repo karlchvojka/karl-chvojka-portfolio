@@ -35,19 +35,20 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 ## Project Structure
 
-.                       # Root folder - Project Config
-├── public              # public folder - Files for public access
-└── src                 # src - Main app folder
-    ├── app             # app - Contains App Global components
-    ├── components      # components - Components to be accessed across the app
-    |   ├── features    # features - Components refrenced from multiple components
-    |   ├── layout      # layout - Components used for page and section layout
-    |   |   └── Header  # Header - Header Component
-    |   └── ui          # ul - Components used across the app (buttons etc)
-    ├── lib             # lib - Components for external and state functionality
-    ├── styles          # styles - Global CSS styles
-    |   └── themes      # themes - Styles used to effect entire app as a theme (Light, Dark etc)
-    └── utils           # utils - Internal logic
+.                               # Root folder - Project Config
+├── public                      # public folder - Files for public access
+└── src                         # src - Main app folder
+    ├── app                     # app - Contains App Global components
+    ├── components              # components - Components to be accessed across the app
+    |   ├── features            # features - Components refrenced from multiple components
+    |   |   └── hero-image      # hero-image - Hero Image component for the Homepage
+    |   ├── layout              # layout - Components used for page and section layout
+    |   |   └── Header          # Header - Header Component
+    |   └── ui                  # ul - Components used across the app (buttons etc)
+    ├── lib                     # lib - Components for external and state functionality
+    ├── styles                  # styles - Global CSS styles
+    |   └── themes              # themes - Styles used to effect entire app as a theme (Light, Dark etc)
+    └── utils                   # utils - Internal logic
 
 ## Learn More
 
