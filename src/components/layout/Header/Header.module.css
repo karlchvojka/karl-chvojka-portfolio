@@ -1,5 +1,5 @@
 .headerWrap {
-  background-color: #ffffff;
+  background-color: var(--white);
   display: grid;
   grid-template-columns: 35px 130px;
   justify-content: space-between;
@@ -18,13 +18,13 @@
   width: 130px;
 
   a:link, a:visited {
-    color: grey;
+    color: var(--dark-grey);
     font-family: var(--font-montserrat);
     font-weight: 900;
     text-transform: uppercase;
   }
 
   a:hover, a:active {
-    color: orange;
+    color: var(--orange);
   }
 }

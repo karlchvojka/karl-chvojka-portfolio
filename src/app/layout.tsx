@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 /* End NextJS Imports */
 
 /* Style Imports */
+import "styles/variables.css";
 import "styles/globals.css";
 import { montserrat_init } from  "styles/fonts.tsx";
 /* End Style Imports */
