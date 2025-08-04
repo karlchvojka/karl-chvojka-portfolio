@@ -1,6 +1,7 @@
 /* Component Imports */
 import Header from "components/layout/Header/Header.tsx";
 import HeroImage from "components/features/hero-image/hero-image.tsx";
+import SectionHeader from "components/elements/sec-head/sec-head.tsx";
 /* End Component Imports */
 
 /* Style Imports */
@@ -21,6 +22,7 @@ export default function Home() {
       <HeroImage />
       <main className={styles.main}>
         <h1>Karl Chvojka's Portfolio</h1>
+        <SectionHeader title="Projects" />
         <footer className={styles.footer}>
           <p>Footer</p>
         </footer>

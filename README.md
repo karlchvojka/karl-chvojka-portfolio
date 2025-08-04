@@ -6,9 +6,9 @@ Karl Chvojka's portfolio website: A basic SPA to display projects and websites a
 
 This is a NextJS bootstrapped SPA website using the current latest version of NextJS.
 
-At the time, the current packages are (as of 2025-07-02):
+At the time, the current packages are (as of 2025-08-04):
 
-    - Next: 15.3.4 (Current Latest)
+    - Next: 15.4.5 (Current Latest)
     - React: 19.0.0
     - TypeScript: 5
     - Eslint: 9
