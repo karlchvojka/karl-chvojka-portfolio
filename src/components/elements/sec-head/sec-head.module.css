@@ -1,0 +1,24 @@
+.sect_head_wrap {
+  background-color: var(--cyber-blue);
+  clip-path: polygon(20px 0, 100% 0, 100% 100%, 0 100%, 0 20px);
+  margin-bottom: 20px;
+  padding-bottom: 4px;
+  position: relative;
+
+  .cornerWrapHeader {
+    background-color: var(--dark-blue);
+    clip-path: polygon(20px 0, 100% 0, 100% 100%, 0 100%, 0 20px);
+    height: calc(100% - 32px);
+    position: relative;
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+    width: calc(100% - 40px);
+    padding: 18px 18px 14px 18px;
+
+    h2 {
+      color: var(--orange);
+    }
+  }
+}
