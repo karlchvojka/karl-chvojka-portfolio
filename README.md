@@ -40,6 +40,9 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 └── src                         # src - Main app folder
     ├── app                     # app - Contains App Global components
     ├── components              # components - Components to be accessed across the app
+    |   |-- elements            # elements - Components referenced in other components/pages
+    |   |   ├── proj-card       # proj-card - Project Card Component
+    |   |   └── sec-head        # sec-head - Section Head Component   
     |   ├── features            # features - Components refrenced from multiple components
     |   |   └── hero-image      # hero-image - Hero Image component for the Homepage
     |   ├── layout              # layout - Components used for page and section layout
