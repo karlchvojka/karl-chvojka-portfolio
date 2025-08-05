@@ -1,4 +1,5 @@
 /* Component Imports */
+import AccordionWrap from "components/elements/accordion/accordion.tsx";
 import Header from "components/layout/Header/Header.tsx";
 import HeroImage from "components/features/hero-image/hero-image.tsx";
 import SectionHeader from "components/elements/sec-head/sec-head.tsx";
@@ -34,10 +35,12 @@ export default function Home() {
           projTech="All tech"
           projTitle="Project Title"
         />
-        <footer className={styles.footer}>
-          <p>Footer</p>
-        </footer>
+        <SectionHeader title="Skills" />
+        <AccordionWrap />
       </main>
+      <footer className={styles.footer}>
+        <p>Footer</p>
+      </footer>
     </div>
   );
 }
