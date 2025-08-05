@@ -1,4 +1,4 @@
-# Karl Chvojka's Portfolio
+# Karl Chvojka's Portfolio [0.0.5]
 
 Karl Chvojka's portfolio website: A basic SPA to display projects and websites and etc.
 
@@ -47,7 +47,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
     |   ├── features            # features - Components refrenced from multiple components
     |   |   └── hero-image      # hero-image - Hero Image component for the Homepage
     |   ├── layout              # layout - Components used for page and section layout
-    |   |   └── Header          # Header - Header Component
+    |   |   └── header          # header - Header Component
     |   └── ui                  # ul - Components used across the app (buttons etc)
     ├── lib                     # lib - Components for external and state functionality
     ├── styles                  # styles - Global CSS styles

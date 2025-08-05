@@ -26,3 +26,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0), 
 
 ## [0.0.4] - 2025-08-05
 - Implement Skill Accordion Component
+- Clean up Header component
+    - Cleaned up structure
+    - Cleaned up file structure to follow common conventions
+    - Implemented responsive styles
