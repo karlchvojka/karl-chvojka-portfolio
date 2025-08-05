@@ -1,6 +1,6 @@
 /* Component Imports */
 import AccordionWrap from "components/elements/accordion/accordion.tsx";
-import Header from "components/layout/Header/Header.tsx";
+import Header from "components/layout/header/header.js";
 import HeroImage from "components/features/hero-image/hero-image.tsx";
 import SectionHeader from "components/elements/sec-head/sec-head.tsx";
 import ProjectCard from "components/elements/project-card/project-card.tsx";

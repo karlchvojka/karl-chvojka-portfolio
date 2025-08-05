@@ -14,5 +14,5 @@ export const montserrat_init = Montserrat({
   subsets: ['latin'],
   style: ['normal'],
   variable: '--font-montserrat',
-  weight: ['400', '500', '600', '700'],
+  weight: ['400', '500', '600', '700', '800', '900'],
 });

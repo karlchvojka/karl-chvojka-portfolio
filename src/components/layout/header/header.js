@@ -2,6 +2,10 @@
 'use client';
 /* End NextJS declarations */
 
+/* Library Imports */
+import { AiFillGithub } from "react-icons/ai";
+/* End Library Imports */
+
 /* Component Imports */
 import Image from 'next/image';
 import Link from 'next/link';
@@ -12,7 +16,7 @@ import hexalogo from './hexapixel-logo.jpg';
 /* End Asset Imports */
 
 /* Style Imports */
-import styles from  './Header.module.css';
+import styles from  './header.module.css';
 /* End Style Imports */
 
 /** 
@@ -34,6 +38,7 @@ export default function Header() {
       <nav className={styles.navWrap}>
         <Link href="/">Home</Link>
         <Link href="/resume">Resume</Link>
+        <Link className={styles.gitLink} href="https://github.com/karlchvojka"><AiFillGithub /></Link>
       </nav>
   </header>
   )
