@@ -41,6 +41,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
     ├── app                     # app - Contains App Global components
     ├── components              # components - Components to be accessed across the app
     |   |-- elements            # elements - Components referenced in other components/pages
+    |   |   ├── accordion       # accordion - Skill Accordion Comonent
     |   |   ├── proj-card       # proj-card - Project Card Component
     |   |   └── sec-head        # sec-head - Section Head Component   
     |   ├── features            # features - Components refrenced from multiple components
