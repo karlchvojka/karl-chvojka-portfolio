@@ -6,7 +6,7 @@
   -webkit-box-shadow: 0px 7px 5px -1px rgba(0,171,223,0.3);
   box-shadow: 0px 7px 5px -1px rgba(0,171,223,0.3);
   display: flex;
-  height: 375px;
+  height: 420px;
   margin: 0 auto;
   padding-top: 73px;
   width: 100%;
@@ -20,6 +20,7 @@
   h1 {
     color: var(--cyber-blue);
     display: block;
+    line-height: 1;
     margin-bottom: 20px;
     text-transform: uppercase;
   }
@@ -33,14 +34,12 @@
 
 /* Min width of 375 */
 @media (min-width: 375px) {
-  .hero_wrap {
-
-    div {
-      max-width: 90%;
-    }
+  .hero_wrap div {
+    max-width: 90%;
   }
 }
 
+/* Min width of 414px */
 @media (min-width: 414px) {
   .hero_wrap div {
     max-width: 80%;
@@ -48,24 +47,23 @@
   }
 }
 
+/* Min width of 576px */
 @media (min-width: 576px) {
-  .hero_wrap {
-    div {
-      min-width: 75%;
-      max-width: 50%;
-      margin: 0px 0px 0px 20px;
-    }
+  .hero_wrap div {
+    min-width: 75%;
+    max-width: 50%;
+    margin: 0px 0px 0px 20px;
   }
 }
 
+/* Min width of 650px */
 @media (min-width: 650px) {
-  .hero_wrap {
-    div {
-      min-width: 65%;
-    }
+  .hero_wrap div {
+    min-width: 65%;
   }
 }
 
+/* Min width of 768px */
 @media (min-width: 768px) {
   .hero_wrap {
     background-position: middle;
@@ -77,6 +75,7 @@
   }
 }
 
+/* Min width of 1024px */
 @media (min-width: 1024px) {
   .hero_wrap {
     height: 480px;
@@ -87,6 +86,7 @@
   }
 }
 
+/* Min width of 1200px */
 @media (min-width: 1200px) {
   .hero_wrap {
     height: 600px;

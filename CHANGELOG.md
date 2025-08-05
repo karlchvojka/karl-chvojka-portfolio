@@ -30,3 +30,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0), 
     - Cleaned up structure
     - Cleaned up file structure to follow common conventions
     - Implemented responsive styles
+- Clean up Hero Image
+    - Cleaned up file structure
+    - Implemented responsive styles
