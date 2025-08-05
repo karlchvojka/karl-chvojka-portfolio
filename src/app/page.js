@@ -26,7 +26,6 @@ export default function Home() {
       <Header />
       <HeroImage />
       <main className={styles.main}>
-        <h1>Karl Chvojka's Portfolio</h1>
         <SectionHeader title="Projects" />
         <ProjectCard
           projDesc="This is a description"
