@@ -1,6 +1,6 @@
-/* NextJS declarations */
+/* NextJS Declarations */
 'use client';
-/* End NextJS declarations */
+/* End NextJS Declarations */
 
 /* Library Imports */
 import { AiFillGithub } from "react-icons/ai";

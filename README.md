@@ -47,8 +47,10 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
     |   ├── features            # features - Components refrenced from multiple components
     |   |   └── hero-image      # hero-image - Hero Image component for the Homepage
     |   ├── layout              # layout - Components used for page and section layout
-    |   |   └── header          # header - Header Component
+    |   |   ├── header          # header - Header Component
+    |   |   └── projects        # projects - Project Section Component
     |   └── ui                  # ul - Components used across the app (buttons etc)
+    ├── data                    # data - Static Data
     ├── lib                     # lib - Components for external and state functionality
     ├── styles                  # styles - Global CSS styles
     |   └── themes              # themes - Styles used to effect entire app as a theme (Light, Dark etc)
