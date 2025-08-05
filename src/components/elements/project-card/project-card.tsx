@@ -25,6 +25,12 @@ type ProjectCardProps = {
  *
  * A Display Component for a Project
  *
+ * @param { string } projDesc Project Description
+ * @param { string } projGit Project Git Repo Link
+ * @param { string } projImg Project Image url
+ * @param { string } projTech Technology used in Project
+ * @param { string } projTitle Project Title
+ *
  * @returns Project Card Component
  */
 export default function ProjectCard({ 

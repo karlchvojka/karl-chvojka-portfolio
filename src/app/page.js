@@ -2,8 +2,8 @@
 import AccordionWrap from "components/elements/accordion/accordion.tsx";
 import Header from "components/layout/header/header.js";
 import HeroImage from "components/features/hero-image/hero-image.jsx";
+import Projects from "components/layout/projects/projects.js";
 import SectionHeader from "components/elements/sec-head/sec-head.tsx";
-import ProjectCard from "components/elements/project-card/project-card.tsx";
 /* End Component Imports */
 
 /* Asset Imports */
@@ -26,14 +26,7 @@ export default function Home() {
       <Header />
       <HeroImage />
       <main className={styles.main}>
-        <SectionHeader title="Projects" />
-        <ProjectCard
-          projDesc="This is a description"
-          projGit="https://github.com"
-          projImg="/global-assets/images/projects/weather.png"
-          projTech="All tech"
-          projTitle="Project Title"
-        />
+        <Projects />
         <SectionHeader title="Skills" />
         <AccordionWrap />
       </main>

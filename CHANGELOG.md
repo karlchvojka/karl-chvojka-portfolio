@@ -33,3 +33,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0), 
 - Clean up Hero Image
     - Cleaned up file structure
     - Implemented responsive styles
+- Clean up Project Section
+    - Clean up structure for the Project section and Project Card
+    - Clean up Header title component styles
+    - Clean up Project Card Component
+    - Clean up Styles, and responsive styles
+    - Updated Data
