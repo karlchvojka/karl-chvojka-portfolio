@@ -41,7 +41,7 @@ export default function ProjectCard({
     projTitle,
 }: ProjectCardProps) {
 
-  const cardImgStyle = { backgroundImage: 'url(' + projImg + ');' };
+  const cardImgStyle = { backgroundImage: 'url(' + projImg + ')' };
 
   return (
     <section className={styles.project_card_wrap}>
