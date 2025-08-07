@@ -1,0 +1,8 @@
+.skills_section {
+  margin: 0 auto;
+  padding: 20px;
+
+  .skills_wrap {
+    background-color: pink;
+  }
+}
