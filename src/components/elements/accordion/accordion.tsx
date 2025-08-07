@@ -20,7 +20,7 @@ import styles from './accordion.module.css';
 export default function AccordionWrap() {
   return (
     <section className={styles.acc_wrap}>
-      <AccordionItem />
+      <AccordionItem def={true} title="test" skillList={["skill1", "skill2", "skill3" ]} />
     </section>
   );
 }

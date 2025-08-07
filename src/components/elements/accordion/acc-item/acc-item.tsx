@@ -2,16 +2,29 @@
 'use client';
 /* End NextJS Declarations */
 
+/* Framework Imports */
+import { useState } from 'react';
+/* End Framework Imports*/
+
 /* Component Imports */
 import Image from 'next/image';
 /* End Component Imports */
 
-/* Asset Imports */
-/* End Asset Imports */
-
 /* Style Imports */
 import styles from './acc-item.module.css';
 /* End Style Imports */
+
+/* Types Imports */
+import { skillItem } from 'src/types/data.interface';
+
+/* End Types Imports */
+/* Accordion Item Prop Types */
+type AccordionItemProps = {
+  def: boolean,
+  title: string,
+  skillList: Array<skillItem>,
+};
+/* End Accordion Item Prop Types */
 
 /**
  * Accordion Item
@@ -20,7 +33,20 @@ import styles from './acc-item.module.css';
  *
  * @returns Accordion Item Component
  */
-export default function AccordionItem() {
+export default function AccordionItem({
+    def,
+    title, 
+    skillList
+  }: AccordionItemProps) {
+  
+  /* State Declarations */
+  const [isActive, setIsActive] = useState(def ? true : false);
+  if (isActive) {
+    console.log('true');
+  } else {
+    console.log('false');
+}
+
   return (
     <section className={styles.acc_item_wrap}>
       <section className={styles.acc_item_inner}>

@@ -11,6 +11,10 @@ import SectionHeader from "components/elements/sec-head/sec-head.tsx";
 import styles from "./skills.module.css";
 /* End Style Imports */
 
+/* Data Imports */
+import skills from 'data/skills';
+/* End Data Imports */
+
 /**
  * Skills Section
  *
@@ -21,8 +25,8 @@ import styles from "./skills.module.css";
 export default function Skills() {
   return (
     <section className={styles.skills_section}>
-      <SectionHeader title="Skills "/>
-      <AccordionWrap />
+      <SectionHeader title="Skills" />
+      <AccordionWrap data={ skills } />
     </section>
   );
 }
