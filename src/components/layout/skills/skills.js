@@ -22,6 +22,7 @@ export default function Skills() {
   return (
     <section className={styles.skills_section}>
       <SectionHeader title="Skills "/>
+      <AccordionWrap />
     </section>
   );
 }

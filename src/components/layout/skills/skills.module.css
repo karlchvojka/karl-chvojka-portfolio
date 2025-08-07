@@ -6,3 +6,15 @@
     background-color: pink;
   }
 }
+
+@media (min-width: 1024px) {
+  .skills_section {
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .skills_section {
+    max-width: 80%;
+  }
+}
