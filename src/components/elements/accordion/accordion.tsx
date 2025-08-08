@@ -13,10 +13,16 @@ import styles from './accordion.module.css';
 /* Types Declarations */
 import { skillItem } from 'src/types/data.interface';
 
-interface SkillsSection {
-  def: boolean,
+interface sectionItem {
   key: string,
-  skillList: Array<skillItem>,
+  def: boolean,
+  title: string,
+  skillList: Array<skillItem>
+}
+
+interface SkillsSection {
+  key: string,
+  sections: Array<sectionItem>,
   title: string
 }
 
@@ -35,15 +41,14 @@ interface AccordionWrapProps {
  * @returns Accordion Wrap Component
  */
 export default function AccordionWrap({ data }: AccordionWrapProps) {
+  console.log('accwrap-data:', data);
   return (
     <section className={styles.acc_wrap}>
       {
-        data.map((section, index) => (
+        data.map((section) => (
           <AccordionItem
+            data={section.sections}
             key={section.key}
-            def={section.def}
-            skillList={section.skillList}
-            title={section.title}
           />
         ))
       }

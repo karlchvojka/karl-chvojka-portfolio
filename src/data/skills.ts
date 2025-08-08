@@ -9,7 +9,7 @@ const skills = [
     skillList: [
       {
         title: 'HTML5',
-        perc: '100%',
+        perc: '100%'
       },
       {
         title: 'CSS3',
@@ -21,7 +21,7 @@ const skills = [
       },
       {
         title: 'TypeScript',
-        perc: '70%',
+        perc: '80%',
       }, 
       {
         title: 'ES6',
@@ -48,10 +48,14 @@ const skills = [
       },
       {
         title: 'ReactJS',
-        perc: '98%',
+        perc: '100%',
       },
       {
-        title: 'Webpack 5',
+        title: 'NextJS',
+        perc: '50%',
+      },
+      {
+        title: 'Webpack',
         perc: '90%',
       },
       {
@@ -65,6 +69,10 @@ const skills = [
       {
         title: 'Styled-Components',
         perc: '100%',
+      },
+      {
+        title: 'CSS Modules ',
+        perc: '80%',
       },
       {
         title: 'React Testing Library',
@@ -96,7 +104,7 @@ const skills = [
       },
       {
         title: 'Tailwind CSS',
-        perc: '50%',
+        perc: '100%',
       },
       {
         title: 'Shopify',
@@ -124,6 +132,29 @@ const skills = [
       {
         title: 'Restful Apis',
         perc: '70%',
+      }
+    ]
+  },
+  {
+    key: 'Os',
+    def: false,
+    title: 'Operating Systems',
+    skillList: [
+      {
+        title: 'Windows',
+        perc: '95%',
+      },
+      {
+        title: 'MacOSX',
+        perc: '90%',
+      },
+      {
+        title: 'Arch Linux',
+        perc: '50%',
+      },
+      {
+        title: 'Ubuntu',
+        perc: '80%',
       }
     ]
   }

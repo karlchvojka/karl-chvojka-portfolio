@@ -12,7 +12,7 @@ import styles from './skills.module.css';
 /* End Style Imports */
 
 /* Data Imports */
-import skills from 'data/skills';
+import skills from 'data/skills2';
 /* End Data Imports */
 
 /**

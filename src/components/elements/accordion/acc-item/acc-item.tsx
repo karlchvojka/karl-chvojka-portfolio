@@ -19,11 +19,15 @@ import { skillItem } from 'src/types/data.interface';
 
 /* End Types Imports */
 /* Accordion Item Prop Types */
-interface AccordionItemProps {
+interface dataTypes {
   key: string,
   def: boolean,
   title: string,
   skillList: Array<skillItem>
+}
+
+interface AccordionItemProps {
+  data: Object<dataTypes>
 }
 /* End Accordion Item Prop Types */
 
@@ -38,22 +42,22 @@ interface AccordionItemProps {
  *
  * @returns Accordion Item Component
  */
-export default function AccordionItem({ def, skillList, title }: AccordionItemProps) {
+export default function AccordionItem({ data }: AccordionItemProps) {
+  console.log('acc item', data);
   /* State Declarations */
-  const [isActive, setIsActive] = useState(def ? true : false);
+  const [isActive, setIsActive] = useState(data.def ? true : false);
   /* End State Declarations */
 
   const currRot = isActive ? 'none' : '180deg';
   const expanded = isActive ? 'expanded' : 'collapsed';
 
-  console.log(currRot);
   return (
     <section className={styles.acc_item_wrap}>
       <section className={styles.acc_item_inner}>
         <section className={styles.acc_item_title}>
-          <button>
+          <button onClick={ () => setIsActive(!isActive) }>
             <div>
-              <h3>{title}</h3>
+              <h3>{data.title}</h3>
             </div>
             <div>
               <Image
@@ -67,21 +71,22 @@ export default function AccordionItem({ def, skillList, title }: AccordionItemPr
           </button>
         </section>
         <section
-          className={styles.accordion_item_content, styles.expanded}
+          className={`${styles.acc_item_content} ${expanded}`}
           aria-expanded={isActive}
         >
           {
-            skillList.map(( skill, index ) => (
-              <section className='skillItem' key={skill.title}>
-                <h4>{ skill.title }</h4>
-                <section className={styles.progressWrap}>
-                  <section className={styles.progressInner} style={{ width: skill.perc }}>
-                    <p>{skill.perc}</p>
-                  </section>
-                </section>
-              </section>
-            ))
+           // data.skillList.map(( skill, index ) => (
+           //   <section className={styles.skill_item} key={skill.title}>
+           //     <h4>{ skill.title }</h4>
+           //     <section className={styles.progress_wrap}>
+           //       <section className={styles.progress_inner} style={{ width: skill.perc }}>
+           //         <p>{skill.perc}%</p>
+           //       </section>
+           //     </section>
+           //   </section>
+           // ))
           }
+        
         </section>
       </section>
     </section>
