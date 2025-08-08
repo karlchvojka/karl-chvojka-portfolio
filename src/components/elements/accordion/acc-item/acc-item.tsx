@@ -6,78 +6,106 @@
 import { useState } from 'react';
 /* End Framework Imports*/
 
-/* Component Imports */
-import Image from 'next/image';
-/* End Component Imports */
-
 /* Style Imports */
 import styles from './acc-item.module.css';
 /* End Style Imports */
 
-/* Types Imports */
-import { skillItem } from 'src/types/data.interface';
+/* Accordion Item  Types */
 
-/* End Types Imports */
-/* Accordion Item Prop Types */
-interface AccordionItemProps {
+// Type Imports
+import { skillItem } from 'src/types/skillItem';
+
+// Accordion Item Prop Types
+interface dataTypes {
   key: string,
   def: boolean,
   title: string,
   skillList: Array<skillItem>
 }
-/* End Accordion Item Prop Types */
+
+interface AccordionItemProps {
+  data: Object<dataTypes>
+}
+
+interface SectionTitleProps {
+  len: number,
+  title: string
+}
+
+/* End Accordion Item Types */
+
+/**
+ * Section Title
+ *
+ * Sub Component to return title if there is more than one item in the sections array
+ * 
+ * @param { number } len Length of sections array
+ * @param { title } title Title of the section
+ * 
+ * @returns HTML For section title
+ */
+function SectionTitle({ len, title }: SectionTitleProps) {
+  if (len > 1) {
+    return <h4 key={title}>{title}</h4>;
+  }
+}
 
 /**
  * Accordion Item
  *
  * Accordion Item Component
- * @param { string } key Key for the component
- * @param { boolean } def Defines if item is open or not by default
- * @param { string } title Title of the section
- * @param { Array } skillList List of skills
+ * @param { Object } data - Data for the full Accordion Item
  *
  * @returns Accordion Item Component
  */
-export default function AccordionItem({ def, skillList, title }: AccordionItemProps) {
+export default function AccordionItem({ data }: AccordionItemProps) {
   /* State Declarations */
-  const [isActive, setIsActive] = useState(def ? true : false);
+  const [isActive, setIsActive] = useState(data.def ? true : false);
   /* End State Declarations */
 
-  const currRot = isActive ? 'none' : '180deg';
   const expanded = isActive ? 'expanded' : 'collapsed';
 
-  console.log(currRot);
   return (
     <section className={styles.acc_item_wrap}>
       <section className={styles.acc_item_inner}>
         <section className={styles.acc_item_title}>
-          <button>
+          <button onClick={() => setIsActive(!isActive)}>
             <div>
-              <h3>{title}</h3>
+              <h3>{data.title}</h3>
             </div>
             <div>
-              <Image
-                alt="Accordion Arrow Image"
-                height={19}
-                src="/global-assets/images/arrow.png"
-                style={{ transform: 'rotate(' + currRot + ')' }}
-                width={23}
+              <img
+                alt={"Accordion Image Arrow"}
+                src={"/global-assets/images/arrow.png"}
               />
             </div>
           </button>
         </section>
         <section
-          className={styles.accordion_item_content, styles.expanded}
+          className={`${styles.acc_item_content} ${expanded}`}
           aria-expanded={isActive}
         >
           {
-            skillList.map(( skill, index ) => (
-              <section className='skillItem' key={skill.title}>
-                <h4>{ skill.title }</h4>
-                <section className={styles.progressWrap}>
-                  <section className={styles.progressInner} style={{ width: skill.perc }}>
-                    <p>{skill.perc}</p>
-                  </section>
+            data.sections.map(( section ) => (
+              <section key={section.key} className={styles.acc_item_sec}>
+                
+                <SectionTitle 
+                  len={data.sections.length}
+                  title={section.title}
+                /> 
+                <section className={styles.skills_wrap}>
+                {
+                  section.skillList.map(( skill ) => (
+                    <section className={styles.skill_item} key={skill.title}>
+                      <h5 key={skill.title}>{skill.title}</h5>
+                      <section className={styles.progress_wrap}>
+                        <section className={styles.progress_inner} style={{ width: skill.perc + '%' }}>
+                          <p>{skill.perc}%</p>
+                        </section>
+                      </section>
+                    </section>
+                  ))
+                }
                 </section>
               </section>
             ))
