@@ -1,16 +1,12 @@
+/* NextJS Declarations */
+'use client';
+/* End NextJS Declarations */
+
 /* Component Imports */
-import Header from "components/layout/header/header.js";
 import HeroImage from "components/features/hero-image/hero-image.jsx";
 import Projects from "components/layout/projects/projects.js";
 import Skills from "components/layout/skills/skills.js";
 /* End Component Imports */
-
-/* Asset Imports */
-/* End Asset Imports */
-
-/* Style Imports */
-import styles from "./page.module.css";
-/* End Style Imports */
 
 /**
  * Home
@@ -19,18 +15,14 @@ import styles from "./page.module.css";
  *
  * @returns Home Component
  */
-export default function Home() {
+export default function Page() {
   return (
-    <div className={styles.page}>
-      <Header />
+    <div className="home_wrap">
       <HeroImage />
-      <main className={styles.main}>
+      <main className="main_wrap">
         <Projects />
         <Skills /> 
       </main>
-      <footer className={styles.footer}>
-        <p>Footer</p>
-      </footer>
     </div>
   );
 }

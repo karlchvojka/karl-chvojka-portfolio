@@ -1,0 +1,39 @@
+/* NextJS Imports */
+'use client';
+/* End NextJS Imports */
+
+/* Style Imports */
+import styles from './resume.module.css';
+/* End Style Imports */
+
+/* Data Imports */
+import education from 'data/education';
+import resume from 'data/resume';
+import skills from 'data/skills';
+/* End Data Imports */
+
+/**
+ * Resume Page
+ *
+ * Resume Page Component
+ *
+ * @returns Resume Page Component
+ */
+export default function Page() {
+  return (
+    <div className={styles.resume_wrap}>
+      <section className={styles.controls}>
+        <p>To save as pdf:&nbsp;&nbsp; 1. Right click, click 'Print'&nbsp;&nbsp; 2. Change Destination to 'Save as PDF'&nbsp;&nbsp; 3. Press 'Save'</p>
+      </section>
+
+      <section className={styles.contacts}>
+        <h1>Karl Chvojka</h1>
+        <h2>Front End Web Developer</h2>
+        <p>Portfolio: <a href="http://karlchvojka.com">karlchvojka.com</a></p>
+        <p>Github: <a href="https://github.com/karlchvojka">https://github.com/karlchvojka.com</a></p>
+        <p>Linkedin: <a href="https://www.linkedin.com/in/karlchvojka/">https://linkedin.com/in/karlchvojka</a></p>
+        <p>Email: <a href="https://mailto:karl.chvojka@gmail.com">karl.chvojka@gmail.com</a></p>
+      </section>
+    </div>
+  );
+}

@@ -2,10 +2,15 @@
 import type { Metadata } from "next";
 /* End NextJS Imports */
 
+/* Component Imports */
+import Header from "components/layout/header/header.js"
+/* End Component Imports */
+
 /* Style Imports */
 import "styles/variables.css";
 import "styles/globals.css";
 import { montserrat_init } from  "styles/fonts.tsx";
+import styles from "./layout.module.css"
 /* End Style Imports */
 
 export const metadata: Metadata = {
@@ -22,13 +27,19 @@ export const metadata: Metadata = {
  */
 export default function RootLayout({
   children,
-}: Readonly <{
-  children: React.ReactNode;
-}>) {
+}: {
+  children: React.ReactNode
+}) {
   return (
     <html lang="en">
       <body className={`${montserrat_init.variable} antialiased`}>
-        {children}
+        <div className="page_wrap">
+          <Header />
+          {children}
+          <footer className="footer_wrap">
+            <p>Footer</p>
+          </footer>
+        </div>
       </body>
     </html>
   );
