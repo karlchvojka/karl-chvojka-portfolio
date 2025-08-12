@@ -8,6 +8,10 @@ import Projects from "components/layout/projects/projects.js";
 import Skills from "components/layout/skills/skills.js";
 /* End Component Imports */
 
+/* Styles Imports */
+import styles from './page.module.css';
+/* End Styles Imports */
+
 /**
  * Home
  *
@@ -17,7 +21,7 @@ import Skills from "components/layout/skills/skills.js";
  */
 export default function Page() {
   return (
-    <div className="home_wrap">
+    <div className={styles.home_wrap}>
       <HeroImage />
       <main className="main_wrap">
         <Projects />
