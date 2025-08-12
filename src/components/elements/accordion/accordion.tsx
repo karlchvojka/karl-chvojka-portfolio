@@ -10,17 +10,47 @@ import AccordionItem from './acc-item/acc-item.tsx';
 import styles from './accordion.module.css';
 /* End Style Imports */
 
+/* Types Declarations */
+import { skillItem } from 'src/types/skillItem';
+
+interface sectionItem {
+  key: string,
+  def: boolean,
+  title: string,
+  skillList: Array<skillItem>
+}
+
+interface SkillsSection {
+  key: string,
+  sections: Array<sectionItem>,
+  title: string
+}
+
+interface AccordionWrapProps {
+  data: Array<SkillsSection>
+}
+/* End Types Declarations */
+
 /**
- * Accordion Wrap
+ * Accordion Wrap 
  *
  * Accordion Wrap Component
  *
+ * @param { array } data - Array of Objects.
+ *
  * @returns Accordion Wrap Component
  */
-export default function AccordionWrap() {
+export default function AccordionWrap({ data }: AccordionWrapProps) {
   return (
     <section className={styles.acc_wrap}>
-      <AccordionItem />
+      {
+        data.map((section) => (
+          <AccordionItem
+            data={section}
+            key={section.key}
+          />
+        ))
+      }
     </section>
   );
 }

@@ -1,9 +1,8 @@
 /* Component Imports */
-import AccordionWrap from "components/elements/accordion/accordion.tsx";
 import Header from "components/layout/header/header.js";
 import HeroImage from "components/features/hero-image/hero-image.jsx";
 import Projects from "components/layout/projects/projects.js";
-import SectionHeader from "components/elements/sec-head/sec-head.tsx";
+import Skills from "components/layout/skills/skills.js";
 /* End Component Imports */
 
 /* Asset Imports */
@@ -27,8 +26,7 @@ export default function Home() {
       <HeroImage />
       <main className={styles.main}>
         <Projects />
-        <SectionHeader title="Skills" />
-        <AccordionWrap />
+        <Skills /> 
       </main>
       <footer className={styles.footer}>
         <p>Footer</p>
