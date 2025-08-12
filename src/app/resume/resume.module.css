@@ -5,5 +5,298 @@
   max-width: 80%;
   padding-top: 73px;
 
+  /* Font Reset */
+
+  h1 {
+    font-family: var(--font-montserrat), sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-family: var(--font-montserrat), sans-serif;
+    font-size: 18px;
+    line-height: 1;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-family: var(--font-montserrat), sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  h4 {
+    font-family: var(--font-montserrat), sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  h5 {
+    font-family: var(--font-montserrat), sans-serif;
+    font-size: 15px;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+
+  h6 {
+    font-family: var(--font-montserrat), sans-serif;
+    font-size: 15px;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-family: var(--font-montserrat), sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 10px;
+  }
+
+  a:link, a:visited {
+    color: var(--orange);
+    font-family: var(--font-montserrat), sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: var(--cyber-blue);
+  }
+
+  @media (min-width: 576px) {
+    h1 {
+      font-size: 24px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+
+    h4 {
+      font-size: 18px;
+    }
+
+    h5 {
+      font-size: 18px;
+    }
+
+    h6 {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+
+    a:link, a:visited {
+      font-size: 14px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 26px;
+    }
+
+    h2 {
+      font-size: 22px;
+    }
+
+    h3 {
+      font-size: 22px;
+    }
+
+    h4 {
+      font-size: 20px;
+    }
+
+    h5 {
+      font-size: 20px;
+    }
+
+    h6 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    a:link, a:visited {
+      font-size: 16px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    h1 {
+      font-size: 35px;
+    }
+
+    h2 {
+      font-size: 32px;
+    }
+
+    h3 {
+      font-size: 30px;
+    }
+
+    h4 {
+      font-size: 28px;
+    }
+
+    h5 {
+      font-size: 26px;
+    }
+
+    h6 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    a:link, a:visited {
+      font-size: 16px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    p {
+      font-size: 18px;
+      line-height: 22px;
+    }
+
+    a:link, a:visited {
+      font-size: 18px;
+    }
+  }
+
+  body {
+    background-color: #ffffff !important;
+  }
+
+  @page {
+    margin-top: 5mm; //affects margin for printing
+    margin-bottom: 5mm;
+    size: auto;
+  }
+
+  h1, h2 {
+    font-family: var(--font-robotocond);
+    font-weight: 700;
+  }
+
+  h1 {
+    margin: 0px;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    color: rgb(0, 171, 223);
+    margin-bottom: 20px;
+  }
+
+  p, a:link {
+    font-family: var(--font-lato);
+  }
+
+  p {
+    color: #000000;
+  }
+
+  .contacts, .profile, .workExp, .skills, .education {
+    padding: 20px;
+  }
+
+  .controls {
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: 75% 100px;
+    justify-content: space-between;
+    padding: 5.5em 1em 1em 1em;
+
+    p {
+      color: #ffffff;
+      font-family: var(--font-montserrat);
+      margin-bottom: 0px;
+    }
+
+    a {
+      font-weight: bold;
+    }
+  }
+
+  .contacts {
+    border-bottom: 5px solid var(--cyber-blue);
+    position: relative;
+    
+    h1, h2 {
+      font-weight: 400;
+    }
+
+    h1 {
+      line-height: 1;
+    }
+    
+    h2 {
+      border-bottom: 1px solid var(--cyber-blue);
+      border-top: 1px solid var(--cyber-blue);
+      color: #000000;
+      margin: 5px 0px;
+      padding-bottom: 5px;
+      padding-top: 7px;
+      width: fit-content;
+    }
+
+    p, a:link {
+      text-transform: uppercase;
+    }
+
+    p {
+      color: #000000;
+      font-weight: 700;
+      line-height: 1;
+    }
+    
+    a:link {
+      font-family: var(--font-robotocond);
+      font-weight: 400;
+    }
+  }
+
+  .contacts * {
+    position: relative;
+  }
+
+  .contacts::before {
+    background-image: url('/global-assets/images/hexrepeat2.jpg');
+    bottom: 0px;
+    content: "";
+    left: 0px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    opacity: 0.5;
+  }
   
+  .profile {
+    border-bottom: 1px solid var(--cyber-blue);
+    padding-bottom: 15px;
+  }
 }

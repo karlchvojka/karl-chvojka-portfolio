@@ -9,7 +9,7 @@ import Header from "components/layout/header/header.js"
 /* Style Imports */
 import "styles/variables.css";
 import "styles/globals.css";
-import { montserrat_init } from  "styles/fonts.tsx";
+import { lato, montserrat_init, robotoCond } from  "styles/fonts.tsx";
 import styles from "./layout.module.css"
 /* End Style Imports */
 
@@ -32,7 +32,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${montserrat_init.variable} antialiased`}>
+      <body className={`${lato.variable} ${montserrat_init.variable} ${robotoCond.variable} antialiased`}>
         <div className="page_wrap">
           <Header />
           {children}
