@@ -1,0 +1,60 @@
+.project_card_wrap {
+  background-color: var(--cyber-blue);
+  clip-path: polygon(20px 0, 100% 0, 100% 100%, 0 100%, 0 20px);
+  margin-bottom: 20px;
+  padding-bottom: 4px;
+  position: relative;
+
+  .corner_project_wrap {
+    background-color: var(--dark-blue);
+    clip-path: polygon(20px 0, 100% 0, 100% 100%, 0 100%, 0 20px);
+    height: 100%;
+    position: relative;
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+    width: calc(100% - 4px);
+    padding: 18px 18px 40px 18px;
+
+    .projImgWrap {
+      background-size: cover;
+      background-repeat: no-repeat;
+      border: 1px solid var(--cyber-blue);
+      border-radius: 5px;
+      -webkit-box-shadow: 0px -1px 6px 2px var(--cyber-blue);
+      box-shadow: 0px -1px 6px 2px var(--cyber-blue);
+      height: 230px;
+      margin-bottom: 20px;
+      overflow: hidden;
+    }
+
+    h3, h4 {
+      line-height: 1;
+    }
+
+    h3 {
+      margin-bottom: 0px;
+    }
+
+    h4 {
+      margin-top: 10px;
+    }
+  
+    a:link, a:visited {
+      color: var(--orange);
+      font-weight: 700;
+      position: absolute;
+      bottom: 10px;
+    }
+
+    a:hover {
+      color: var(--cyber-blue);
+    }
+
+    p {
+      color: var(--cyber-blue);
+      font-size: 1rem;
+    }
+  }
+}
