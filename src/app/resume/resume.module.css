@@ -299,4 +299,112 @@
     border-bottom: 1px solid var(--cyber-blue);
     padding-bottom: 15px;
   }
+
+  .work_exp {
+    border-bottom: 1px solid var(--cyber-blue);
+    padding: 20px;
+
+    .workplace {
+      margin-bottom: 20px;
+    
+      h3 {
+        font-family: var(--font-robotocond), sans-serif;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+      }
+
+      .workplace_header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+
+        h4 {
+          color: #000000;
+          font-family: var(--font-robotocond), sans-serif;
+          font-weight: 400;
+          margin-bottom: 0px;
+        }
+
+        p {
+          font-family: var(--font-robotocond), sans-serif;
+          font-weight: 700;
+          margin-bottom: 0px;
+          text-transform: uppercase;
+          text-align: right;
+        }
+      }
+
+      p.keywords {
+        font-size: 0.8rem;
+        font-style: italic;
+        line-height: 1rem;
+        margin-bottom: 1rem;
+
+        span {
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
+  .skills {
+    border-bottom: 1px solid var(--cyber-blue);
+
+    .skills_wrap {
+      column-gap: 20px;
+
+      .parsec_wrap {
+        border-bottom: 1px solid var(--cyber-blue);
+        margin-bottom: 10px;
+
+        h3 {
+          font-family: var(--font-robotocond), sans-serif;
+          margin-bottom: 10px;
+        }
+
+        .section_wrap {
+          
+          h4 {
+            color: #000000;
+            font-family: var(--font-robotocond), sans-serif;
+            font-weight: 500;
+            margin-bottom: 0px;
+          }
+        
+        }
+
+      }
+    }
+  }
+
+  .education {
+    border-bottom: 1px solid var(--cyber-blue);
+    
+    .ed_item {
+      h3 {
+        font-family: var(--font-robotocond);
+        margin-bottom: 0.5rem;
+      }
+
+      .ed_header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+
+        h4 {
+          color: #000000;
+          font-family: var(--font-robotocond);
+          margin-bottom: 0px;
+        }
+
+        p {
+          font-family: var(--font-robotocond);
+          font-weight: 700;
+          margin-bottom: 0px;
+          text-transform: uppercase;
+          text-align: right;
+        }
+      }
+    }
+  }
 }
