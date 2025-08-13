@@ -1,4 +1,4 @@
-# Karl Chvojka's Portfolio [0.0.4]
+# Karl Chvojka's Portfolio [1.0.0]
 
 Karl Chvojka's portfolio website: A basic SPA to display projects and websites and etc.
 
