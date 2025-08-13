@@ -22,8 +22,6 @@ html {
 }
 
 body {
-  background-image: url('/global-assets/images/bgrep.png');
-  background-repeat: repeat;
   font-family: sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

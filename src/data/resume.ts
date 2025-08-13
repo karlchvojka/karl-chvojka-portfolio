@@ -9,7 +9,7 @@ const resume = {
       {
         company: 'Open Mind Developments',
         dates: 'Nov 2022 - Dec 2022',
-        desc: 'Front-End Development focusing on Customer interaction with the Shopify platform.',
+        desc: 'Front-End Development focusing on Customer Interaction with the Shopify platform.',
         keywords: [
           'Front-End Development (HTML5, CSS3, CSS Grid, Flexbox)',
           'JavaScript',
@@ -163,7 +163,7 @@ const resume = {
       {
         company: 'NORTHLANDS, EDMONTON',
         dates: 'SEPT 2012 – APR 2013',
-        desc: 'Primary responsibility for position was the updating and maintenance of the 13 web properties for Northlands. Acted as the primary contact for the hosting companies, and IT service providers that Northlands works with. This included managing, updating and maintaining the web servers, as well as working with the hosting companies to coordinate hardware maintenance and downtime. Additionally, responsible for internal system creation for managing new content to be added to the web properties.',
+        desc: 'Primary responsibility for the position was the updating and maintenance of the 13 web properties for Northlands. Acted as the primary contact for the hosting companies, and IT service providers that Northlands works with. This included managing, updating and maintaining the web servers, as well as working with the hosting companies to coordinate hardware maintenance and downtime. Additionally, responsible for internal system creation for managing new content to be added to the web properties.',
         keywords: [
           'Front-End Development (HTML5, CSS3)',
           'JavaScript',

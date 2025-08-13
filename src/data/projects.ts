@@ -10,13 +10,6 @@ const projects = [
     git: 'https://github.com/karlchvojka/karl-chvojka-portfolio'
   },
   {
-    title: 'ReactJS Boilerplate',
-    image: './global-assets/images/projects/reactjsbasictemplate2023_screenshot.png',
-    desc: `A CRA Alternative. Set up to have different 'flavors', within the branches.`,
-    tech: 'ReactJS, Webpack 5, Babel 7, TypeScript, ESLint, Styled-Components, Jest, React Testing Library',
-    git: 'https://github.com/karlchvojka/reactjs_boilerplate'
-  },
-  {
     title: 'Weather App Rebuild',
     image: './global-assets/images/projects/weather_rebuild.png',
     desc: '2022 Rebuild of the Weather app. An example of a simple API call, and Typescript.',
