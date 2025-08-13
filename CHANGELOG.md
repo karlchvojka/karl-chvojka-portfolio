@@ -39,3 +39,5 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0), 
     - Clean up Project Card Component
     - Clean up Styles, and responsive styles
     - Updated Data
+- Cleaned up the Resume Page
+    - Cleaned up the printing CSS of the resume page

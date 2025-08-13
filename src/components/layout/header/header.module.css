@@ -1,5 +1,6 @@
 .headerWrap {
   background-color: var(--white);
+  border-bottom: 5px solid var(--cyber-blue);
   display: grid;
   grid-template-columns: 35px 170px;
   justify-content: space-between;

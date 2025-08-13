@@ -36,8 +36,8 @@ export default function RootLayout({
         <div className="page_wrap">
           <Header />
           {children}
-          <footer className="footer_wrap">
-            <p>Footer</p>
+          <footer className={styles.footer_wrap}>
+            <p>2025 - Karl Chvojka</p>
           </footer>
         </div>
       </body>

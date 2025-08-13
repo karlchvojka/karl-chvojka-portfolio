@@ -58,7 +58,7 @@ export default function Page() {
                 <p>{ place.dates }</p>
               </section>
               <p className={styles.keywords}>
-                <span>Noteable Keywords:</span>
+                <span>Noteable Keywords: </span>
                 {
                   place.keywords.map(( keyword, index ) => (
                     <span key={keyword + index}>{keyword}, </span>
@@ -88,9 +88,13 @@ export default function Page() {
                         />
                         <p>
                           {
-                            section.skillList.map(( skill, index)  => ( 
-                              <span key={skill.title + index}>{skill.title}, </span>
-                            ))
+                            section.skillList.map(( skill, index, {length})  => { 
+                              if (length - 1 === index) {
+                                return <span key={skill.title + index}>{skill.title}</span>
+                              } else {
+                                return <span key={skill.title + index}>{skill.title}, </span>
+                              }
+                            })
                           }
                         </p>
                       </section>
