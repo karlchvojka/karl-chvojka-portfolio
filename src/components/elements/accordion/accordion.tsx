@@ -3,32 +3,29 @@
 /* End NextJS Declarations */
 
 /* Component Imports */
-import AccordionItem from './acc-item/acc-item.tsx';
+import AccordionItem from './acc-item/acc-item';
 /* End Component Imports */
 
 /* Style Imports */
 import styles from './accordion.module.css';
 /* End Style Imports */
-
-/* Types Declarations */
-import { skillItem } from 'src/types/skillItem';
-
-interface sectionItem {
-  key: string,
-  def: boolean,
-  title: string,
-  skillList: Array<skillItem>
+interface SectionItem {
+  key: string;
+  skillList: [];
+  title: string;
 }
 
-interface SkillsSection {
-  key: string,
-  sections: Array<sectionItem>,
-  title: string
+interface SectionWrap {
+  def: boolean;
+  key: string;
+  sections: SectionItem[];
+  title: string;
 }
 
 interface AccordionWrapProps {
-  data: Array<SkillsSection>
+  data: SectionWrap[];
 }
+
 /* End Types Declarations */
 
 /**
@@ -44,13 +41,15 @@ export default function AccordionWrap({ data }: AccordionWrapProps) {
   return (
     <section className={styles.acc_wrap}>
       {
-        data.map((section) => (
-          <AccordionItem
-            data={section}
-            key={section.key}
-          />
-        ))
+        data.map(sectionWrap => {
+          return (
+            <AccordionItem
+              key={sectionWrap.key}
+              data={sectionWrap}
+            />
+          );
+        })
       }
     </section>
   );
-}
+};

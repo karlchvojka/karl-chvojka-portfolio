@@ -9,7 +9,7 @@ import Header from "components/layout/header/header.js"
 /* Style Imports */
 import "styles/variables.css";
 import "styles/globals.css";
-import { lato, montserrat_init, robotoCond } from  "styles/fonts.tsx";
+import { lato, montserrat_init, robotoCond } from  "styles/fonts";
 import styles from "./layout.module.css"
 /* End Style Imports */
 

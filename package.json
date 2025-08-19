@@ -2,11 +2,14 @@
   "name": "port-new",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://karlchvojka.github.io/karl-chvojka-portfolio",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "gh-pages -d out --dotfiles"
   },
   "dependencies": {
     "next": "15.4.5",
@@ -22,6 +25,7 @@
     "@types/react-dom": "19.1.7",
     "eslint": "^9",
     "eslint-config-next": "15.4.5",
+    "gh-pages": "^6.3.0",
     "typescript": "^5"
   },
   "overrides": {

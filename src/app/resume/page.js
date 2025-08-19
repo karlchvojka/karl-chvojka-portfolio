@@ -29,7 +29,7 @@ export default function Page() {
   return (
     <div className={styles.resume_wrap}>
       <section className={styles.controls}>
-        <p>To save as pdf:&nbsp;&nbsp; 1. Right click, click 'Print'&nbsp;&nbsp; 2. Change Destination to 'Save as PDF'&nbsp;&nbsp; 3. Press 'Save'</p>
+        <p>To save as pdf:&nbsp;&nbsp; 1. Right click, click &apos;Print&apos;&nbsp;&nbsp; 2. Change Destination to &apos;Save as PDF&apos;&nbsp;&nbsp; 3. Press &apos;Save&apos;</p>
       </section>
 
       <section className={styles.contacts}>
@@ -75,12 +75,12 @@ export default function Page() {
         <h2>Notable Skills</h2>
         <section className={styles.skills_wrap}>
           {
-            skills.map(( par_sec, index) => {
+            skills.map(( par_sec ) => {
               return (
                 <section className={styles.parsec_wrap} key={ par_sec.key }>
                   <h3>{par_sec.title}</h3>
                   {
-                    par_sec.sections.map(( section, index) => (
+                    par_sec.sections.map(( section ) => (
                       <section className={styles.section_wrap} key={section.key}>
                         <SectionTitle
                           len={par_sec.sections.length}
