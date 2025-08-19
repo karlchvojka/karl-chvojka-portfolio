@@ -1,4 +1,4 @@
-export interface skillItem {
+export interface SkillItem {
   perc: string,
   title: string
 }

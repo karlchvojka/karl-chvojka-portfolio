@@ -45,7 +45,7 @@ export const montserrat_init = Montserrat({
  */ 
 export const robotoCond = Roboto_Condensed({
   display: 'swap',
-  subsets: ['thin 100'],
+  subsets: ['latin'],
   style: ['normal'],
   variable: '--font-robotocond',
   weight: ['400', '500', '600', '700', '800']

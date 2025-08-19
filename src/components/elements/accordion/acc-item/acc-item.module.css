@@ -19,7 +19,7 @@
     
   }
 
-  .acc_item_title button {
+  .acc_item_title {
     align-items: center;
     background-color: var(--dark-blue);
     border: none;
@@ -47,12 +47,6 @@
       margin-bottom: 0px;
     }
     
-  }
-
-  .acc_item_title button:hover {
-    h3 {
-      color: var(--cyber-blue);
-    }
   }
 
   .acc_item_content {
