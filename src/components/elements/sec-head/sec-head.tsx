@@ -7,7 +7,7 @@ import styles from './sec-head.module.css';
 /* End Style Imports */
 
 /* Section Header Prop Types */
-type SectionHeaerProps = {
+type SectionHeaderProps = {
   title: string;
 };
 /* End Section Header Prop Types */
