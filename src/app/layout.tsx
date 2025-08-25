@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 /**
  * RootLayout
  *
- * Root Layout Component 
+ * Root Layout Component
  *
  * @returns RootLayout Component
  */

@@ -17,15 +17,15 @@ At the time, the current packages are (as of 2025-08-04):
 
 First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+    ```bash
+        npm run dev
+        # or
+        yarn dev
+        # or
+        pnpm dev
+        # or
+        bun dev
+    ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -44,7 +44,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
     |   |-- elements            # elements - Components referenced in other components/pages
     |   |   ├── accordion       # accordion - Skill Accordion Comonent
     |   |   ├── proj-card       # proj-card - Project Card Component
-    |   |   └── sec-head        # sec-head - Section Head Component   
+    |   |   └── sec-head        # sec-head - Section Head Component
     |   ├── features            # features - Components refrenced from multiple components
     |   |   └── hero-image      # hero-image - Hero Image component for the Homepage
     |   ├── layout              # layout - Components used for page and section layout

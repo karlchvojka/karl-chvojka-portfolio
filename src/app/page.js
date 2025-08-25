@@ -1,5 +1,5 @@
 /* NextJS Declarations */
-'use client';
+"use client";
 /* End NextJS Declarations */
 
 /* Component Imports */
@@ -9,7 +9,7 @@ import Skills from "components/layout/skills/skills.js";
 /* End Component Imports */
 
 /* Styles Imports */
-import styles from './page.module.css';
+import styles from "./page.module.css";
 /* End Styles Imports */
 
 /**
@@ -25,7 +25,7 @@ export default function Page() {
       <HeroImage />
       <main className="main_wrap">
         <Projects />
-        <Skills /> 
+        <Skills />
       </main>
     </div>
   );

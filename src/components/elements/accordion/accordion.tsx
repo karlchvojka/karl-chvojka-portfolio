@@ -1,13 +1,13 @@
 /* NextJS Declarations */
-'use client';
+"use client";
 /* End NextJS Declarations */
 
 /* Component Imports */
-import AccordionItem from './acc-item/acc-item';
+import AccordionItem from "./acc-item/acc-item";
 /* End Component Imports */
 
 /* Style Imports */
-import styles from './accordion.module.css';
+import styles from "./accordion.module.css";
 /* End Style Imports */
 interface SectionItem {
   key: string;
@@ -29,7 +29,7 @@ interface AccordionWrapProps {
 /* End Types Declarations */
 
 /**
- * Accordion Wrap 
+ * Accordion Wrap
  *
  * Accordion Wrap Component
  *
@@ -40,16 +40,9 @@ interface AccordionWrapProps {
 export default function AccordionWrap({ data }: AccordionWrapProps) {
   return (
     <section className={styles.acc_wrap}>
-      {
-        data.map(sectionWrap => {
-          return (
-            <AccordionItem
-              key={sectionWrap.key}
-              data={sectionWrap}
-            />
-          );
-        })
-      }
+      {data.map((sectionWrap) => {
+        return <AccordionItem key={sectionWrap.key} data={sectionWrap} />;
+      })}
     </section>
   );
-};
+}
