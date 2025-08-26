@@ -1,9 +1,9 @@
 import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
-  basePath: "/deploy-to-gh-pages",
+  basePath: "",
   output: "export",
-  images: { unoptimized: true },
+  images: { unoptimized: true, path: "/" },
   devIndicators: false
 };
 

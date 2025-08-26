@@ -2,6 +2,10 @@
 "use client";
 /* End NextJS Declarations */
 
+/* Framework Imports */
+import Image from "next/image";
+/* End Framework Imports */
+
 /* Library Imports */
 import { AiFillGithub } from "react-icons/ai";
 /* End Library Imports */
@@ -40,12 +44,21 @@ export default function ProjectCard({
   projTech,
   projTitle,
 }: ProjectCardProps) {
-  const cardImgStyle = { backgroundImage: "url(" + projImg + ")" };
+  const cardImgLink = (projImg: string) => {
+    return `/global-assets/images/projects/${projImg}`;
+  };
 
   return (
     <section className={styles.project_card_wrap}>
       <section className={styles.corner_project_wrap}>
-        <section className={styles.projImgWrap} style={cardImgStyle}></section>
+        <section className={styles.projImgWrap}>
+          <Image
+            alt={projTitle + `screenshot`}
+            src={cardImgLink(projImg)}
+            fill
+            style={{ objectFit: "cover" }}
+          />
+        </section>
         <h3 id="projTitle">{projTitle}</h3>
         <p id="projDesc">{projDesc}</p>
         <h4>Technology Used:</h4>

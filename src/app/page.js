@@ -2,8 +2,11 @@
 "use client";
 /* End NextJS Declarations */
 
+/* Framework Component Imports */
+/* End Framework Component Imports */
+
 /* Component Imports */
-import HeroImage from "components/features/hero-image/hero-image.jsx";
+import HeroImage from "components/features/hero-image/hero-image.js";
 import Projects from "components/layout/projects/projects.js";
 import Skills from "components/layout/skills/skills.js";
 /* End Component Imports */
