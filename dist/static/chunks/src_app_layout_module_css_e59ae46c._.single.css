@@ -1,0 +1,17 @@
+/* [project]/src/app/layout.module.css [app-client] (css) */
+.layout-module__L5FxyW__footer_wrap {
+  padding: 10px 20px;
+}
+
+.layout-module__L5FxyW__footer_wrap p {
+  color: var(--orange);
+  font-size: 16px;
+}
+
+@media print {
+  .layout-module__L5FxyW__footer_wrap {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=src_app_layout_module_css_e59ae46c._.single.css.map*/

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/layout/header/header.module.css"],"sourcesContent":[".headerWrap {\n  background-color: var(--white);\n  border-bottom: 5px solid var(--cyber-blue);\n  display: grid;\n  grid-template-columns: 35px 170px;\n  justify-content: space-between;\n  left: 0;\n  padding: 10px;\n  position: fixed;\n  top: 0;\n  width: 100%;\n  z-index: 5;\n\n  .navWrap {\n    align-items: center;\n    column-gap: 10px;\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr;\n    width: 170px;\n\n    a:link, a:visited {\n      color: var(--dark-grey);\n      font-family: var(--font-montserrat);\n      font-size: 17px;\n      font-weight: 800;\n      text-transform: uppercase;\n    }\n\n    a:hover, a:active {\n      color: var(--orange);\n    }\n\n    a.gitLink {\n      font-size: 18px;\n      margin-top: 5px;\n    }\n  }\n}\n\n@media print {\n  .headerWrap {\n    display: none;\n  }\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;AAaE;;;;;;;;AAOE;;;;;;;;AAAA;;;;;;;;AAQA;;;;AAAA;;;;AAIA;;;;;AAOJ;EACE"}}]
+}

@@ -132,7 +132,7 @@
     top: 0px;
     opacity: 0.5;
   }
-  
+
   .profile {
     border-bottom: 1px solid var(--cyber-blue);
     padding-bottom: 15px;
@@ -223,7 +223,7 @@
 
   .education {
     border-bottom: 1px solid var(--cyber-blue);
-    
+
     .ed_item {
       margin-bottom: 20px;
 
@@ -256,7 +256,6 @@
   }
 
   /* Responsive Media Queries */
-  
   @media (min-width: 576px) {
     h1 {
       font-size: 24px;
@@ -265,7 +264,7 @@
     h2, h3 {
       font-size: 20px;
     }
-    
+
     h4, h5, h6 {
       font-size: 18px;
     }

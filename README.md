@@ -35,27 +35,27 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 ## Project Structure
 
-.                               # Root folder - Project Config
-├── public                      # public folder - Files for public access
-└── src                         # src - Main app folder
-    ├── app                     # app - Contains App Global components
-    |   ├── resume              # resume - Resume Page component
-    ├── components              # components - Components to be accessed across the app
-    |   |-- elements            # elements - Components referenced in other components/pages
-    |   |   ├── accordion       # accordion - Skill Accordion Comonent
-    |   |   ├── proj-card       # proj-card - Project Card Component
-    |   |   └── sec-head        # sec-head - Section Head Component
-    |   ├── features            # features - Components refrenced from multiple components
-    |   |   └── hero-image      # hero-image - Hero Image component for the Homepage
-    |   ├── layout              # layout - Components used for page and section layout
-    |   |   ├── header          # header - Header Component
-    |   |   ├── projects        # projects - Project Section Component
-    |   |   └── skills          # skills - Skills Section Component
-    |   └── ui                  # ul - Components used across the app (buttons etc)
-    ├── data                    # data - Static Data
-    ├── lib                     # lib - Components for external and state functionality
-    └── styles                  # styles - Global CSS styles
-        └── themes              # themes - Styles used to effect entire app as a theme (Light, Dark etc)
+.                               # Root folder - Project Config  
+├── public                      # public folder - Files for public access  
+└── src                         # src - Main app folder  
+    ├── app                     # app - Contains App Global components  
+    |   ├── resume              # resume - Resume Page component  
+    ├── components              # components - Components to be accessed across the app  
+    |   ├── elements            # elements - Components referenced in other components/pages  
+    |   |   ├── accordion       # accordion - Skill Accordion Comonent  
+    |   |   ├── proj-card       # proj-card - Project Card Component  
+    |   |   └── sec-head        # sec-head - Section Head Component  
+    |   ├── features            # features - Components refrenced from multiple components  
+    |   |   └── hero-image      # hero-image - Hero Image component for the Homepage  
+    |   ├── layout              # layout - Components used for page and section layout  
+    |   |   ├── header          # header - Header Component  
+    |   |   ├── projects        # projects - Project Section Component  
+    |   |   └── skills          # skills - Skills Section Component  
+    |   └── ui                  # ul - Components used across the app (buttons etc)  
+    ├── data                    # data - Static Data  
+    ├── lib                     # lib - Components for external and state functionality  
+    └── styles                  # styles - Global CSS styles  
+        └── themes              # themes - Styles used to effect entire app as a theme (Light, Dark etc)  
 
 ## Learn More
 

@@ -16,7 +16,6 @@
     left: 2px;
     width: calc(100% - 4px);
     padding: 18px 18px 14px 18px;
-    
   }
 
   .acc_item_title {
@@ -46,7 +45,6 @@
       font-size: 1.45rem;
       margin-bottom: 0px;
     }
-    
   }
 
   .acc_item_content {
@@ -58,7 +56,7 @@
 
     .acc_item_sec {
       margin-bottom: 10px;
-      
+
       h4 {
         color: var(--orange);
       }

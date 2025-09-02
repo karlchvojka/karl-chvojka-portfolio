@@ -1,0 +1,494 @@
+/* [project]/src/app/resume/resume.module.css [app-client] (css) */
+.resume-module__R4NoHW__resume_wrap {
+  background-color: #fff;
+  background-image: none;
+  max-width: 100%;
+  padding-top: 78px;
+}
+
+.resume-module__R4NoHW__resume_wrap h1 {
+  font-family: var(--font-robotocond), sans-serif;
+  text-transform: uppercase;
+}
+
+.resume-module__R4NoHW__resume_wrap h2 {
+  font-family: var(--font-robotocond), sans-serif;
+  text-transform: uppercase;
+}
+
+.resume-module__R4NoHW__resume_wrap h3 {
+  font-family: var(--font-robotocond), sans-serif;
+  text-transform: uppercase;
+}
+
+.resume-module__R4NoHW__resume_wrap h4 {
+  font-family: var(--font-robotocond), sans-serif;
+  text-transform: uppercase;
+}
+
+.resume-module__R4NoHW__resume_wrap h5 {
+  font-family: var(--font-robotocond), sans-serif;
+  text-transform: uppercase;
+}
+
+.resume-module__R4NoHW__resume_wrap h6 {
+  font-family: var(--font-robotocond), sans-serif;
+  text-transform: uppercase;
+}
+
+.resume-module__R4NoHW__resume_wrap h1 {
+  line-height: 1;
+}
+
+.resume-module__R4NoHW__resume_wrap h2 {
+  line-height: 1;
+}
+
+.resume-module__R4NoHW__resume_wrap h3 {
+  line-height: 1;
+}
+
+.resume-module__R4NoHW__resume_wrap h4 {
+  line-height: 1;
+}
+
+.resume-module__R4NoHW__resume_wrap h5 {
+  line-height: 1;
+}
+
+.resume-module__R4NoHW__resume_wrap h6 {
+  line-height: 1;
+}
+
+.resume-module__R4NoHW__resume_wrap p {
+  line-height: 1;
+}
+
+.resume-module__R4NoHW__resume_wrap a:link {
+  line-height: 1;
+}
+
+.resume-module__R4NoHW__resume_wrap a:hover {
+  line-height: 1;
+}
+
+.resume-module__R4NoHW__resume_wrap h1 {
+  color: var(--cyber-blue);
+  margin-bottom: 0;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.resume-module__R4NoHW__resume_wrap h2 {
+  border-bottom: 1px solid var(--cyber-blue);
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.resume-module__R4NoHW__resume_wrap h3 {
+  color: var(--orange);
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.resume-module__R4NoHW__resume_wrap h4 {
+  color: var(--dark-blue);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.resume-module__R4NoHW__resume_wrap h5 {
+  font-size: 15px;
+}
+
+.resume-module__R4NoHW__resume_wrap h6 {
+  font-size: 15px;
+}
+
+.resume-module__R4NoHW__resume_wrap p {
+  color: #000;
+  font-family: var(--font-lato), sans-serif;
+  margin-bottom: 5px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.resume-module__R4NoHW__resume_wrap a:link {
+  color: var(--orange);
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.resume-module__R4NoHW__resume_wrap a:visited {
+  color: var(--orange);
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.resume-module__R4NoHW__resume_wrap a:hover {
+  color: var(--cyber-blue);
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__contacts {
+  padding: 20px;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__profile {
+  padding: 20px;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__workExp {
+  padding: 20px;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__skills {
+  padding: 20px;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__education {
+  padding: 20px;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__controls {
+  background-color: #000;
+  grid-template-columns: 75% 100px;
+  justify-content: space-between;
+  padding: 1em;
+  display: grid;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__controls p {
+  color: #fff;
+  font-family: var(--font-montserrat);
+  margin-bottom: 0;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__contacts * {
+  position: relative;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__contacts {
+  border-bottom: 5px solid var(--cyber-blue);
+  position: relative;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__contacts h2 {
+  border-bottom: 1px solid var(--cyber-blue);
+  border-top: 1px solid var(--cyber-blue);
+  color: #000;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 5px 0;
+  padding: 7px 0 5px;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__contacts p {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__contacts p a:link {
+  font-family: var(--font-robotocond);
+  font-weight: 400;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__contacts p a:hover {
+  font-family: var(--font-robotocond);
+  font-weight: 400;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__contacts p:last-of-type {
+  margin-bottom: 0;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__contacts:before {
+  content: "";
+  opacity: .5;
+  background-image: url("/global-assets/images/hexrepeat2.jpg");
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__profile {
+  border-bottom: 1px solid var(--cyber-blue);
+  padding-bottom: 15px;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__work_exp {
+  border-bottom: 1px solid var(--cyber-blue);
+  padding: 20px;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__work_exp .resume-module__R4NoHW__workplace {
+  border-bottom: 1px solid var(--cyber-blue);
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__work_exp .resume-module__R4NoHW__workplace .resume-module__R4NoHW__workplace_header {
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  display: grid;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__work_exp .resume-module__R4NoHW__workplace .resume-module__R4NoHW__workplace_header h4 {
+  font-weight: 500;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__work_exp .resume-module__R4NoHW__workplace .resume-module__R4NoHW__workplace_header p {
+  font-family: var(--font-robotocond);
+  text-transform: uppercase;
+  text-align: right;
+  font-weight: 700;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__work_exp .resume-module__R4NoHW__workplace p.resume-module__R4NoHW__keywords {
+  margin-bottom: 1rem;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 1rem;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__work_exp .resume-module__R4NoHW__workplace p.resume-module__R4NoHW__keywords span {
+  font-weight: 500;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__work_exp .resume-module__R4NoHW__workplace:last-of-type {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__skills {
+  border-bottom: 1px solid var(--cyber-blue);
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__skills .resume-module__R4NoHW__skills_wrap {
+  column-gap: 20px;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__skills .resume-module__R4NoHW__skills_wrap .resume-module__R4NoHW__parsec_wrap {
+  border-bottom: 1px solid var(--cyber-blue);
+  margin-bottom: 10px;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__skills .resume-module__R4NoHW__skills_wrap .resume-module__R4NoHW__parsec_wrap h3 {
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__skills .resume-module__R4NoHW__skills_wrap .resume-module__R4NoHW__parsec_wrap h4 {
+  color: var(--cyber-blue);
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__skills .resume-module__R4NoHW__skills_wrap .resume-module__R4NoHW__parsec_wrap p {
+  margin-bottom: 10px;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__skills .resume-module__R4NoHW__skills_wrap .resume-module__R4NoHW__parsec_wrap:last-of-type {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__skills .resume-module__R4NoHW__skills_wrap .resume-module__R4NoHW__parsec_wrap:last-of-type p:last-of-type {
+  margin-bottom: 0;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__education {
+  border-bottom: 1px solid var(--cyber-blue);
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__education .resume-module__R4NoHW__ed_item {
+  margin-bottom: 20px;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__education .resume-module__R4NoHW__ed_item h3 {
+  margin-bottom: .5rem;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__education .resume-module__R4NoHW__ed_item .resume-module__R4NoHW__ed_header {
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  display: grid;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__education .resume-module__R4NoHW__ed_item .resume-module__R4NoHW__ed_header h4 {
+  font-weight: 500;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__education .resume-module__R4NoHW__ed_item .resume-module__R4NoHW__ed_header p {
+  font-family: var(--font-robotocond);
+  text-transform: uppercase;
+  text-align: right;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__education .resume-module__R4NoHW__ed_item:last-of-type {
+  margin-bottom: 0;
+}
+
+@media (min-width: 576px) {
+  .resume-module__R4NoHW__resume_wrap h1 {
+    font-size: 24px;
+  }
+
+  .resume-module__R4NoHW__resume_wrap h2 {
+    font-size: 20px;
+  }
+
+  .resume-module__R4NoHW__resume_wrap h3 {
+    font-size: 20px;
+  }
+
+  .resume-module__R4NoHW__resume_wrap h4 {
+    font-size: 18px;
+  }
+
+  .resume-module__R4NoHW__resume_wrap h5 {
+    font-size: 18px;
+  }
+
+  .resume-module__R4NoHW__resume_wrap h6 {
+    font-size: 18px;
+  }
+
+  .resume-module__R4NoHW__resume_wrap p {
+    font-size: 14px;
+  }
+
+  .resume-module__R4NoHW__resume_wrap a:link {
+    font-size: 14px;
+  }
+
+  .resume-module__R4NoHW__resume_wrap a:hover {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .resume-module__R4NoHW__resume_wrap h1 {
+    font-size: 26px;
+  }
+
+  .resume-module__R4NoHW__resume_wrap h2 {
+    font-size: 22px;
+  }
+
+  .resume-module__R4NoHW__resume_wrap h3 {
+    font-size: 22px;
+  }
+
+  .resume-module__R4NoHW__resume_wrap h4 {
+    font-size: 20px;
+  }
+
+  .resume-module__R4NoHW__resume_wrap h5 {
+    font-size: 20px;
+  }
+
+  .resume-module__R4NoHW__resume_wrap h6 {
+    font-size: 20px;
+  }
+
+  .resume-module__R4NoHW__resume_wrap p {
+    font-size: 16px;
+  }
+
+  .resume-module__R4NoHW__resume_wrap a:link {
+    font-size: 16px;
+  }
+
+  .resume-module__R4NoHW__resume_wrap a:hover {
+    font-size: 16px;
+  }
+
+  .resume-module__R4NoHW__resume_wrap p {
+    line-height: 20px;
+  }
+}
+
+@media (min-height: 1024px) {
+  .resume-module__R4NoHW__resume_wrap h1 {
+    font-size: 35px;
+  }
+
+  .resume-module__R4NoHW__resume_wrap h2 {
+    font-size: 32px;
+  }
+
+  .resume-module__R4NoHW__resume_wrap h3 {
+    font-size: 30px;
+  }
+
+  .resume-module__R4NoHW__resume_wrap h4 {
+    font-size: 28px;
+  }
+
+  .resume-module__R4NoHW__resume_wrap h5 {
+    font-size: 26px;
+  }
+
+  .resume-module__R4NoHW__resume_wrap h6 {
+    font-size: 24px;
+  }
+
+  .resume-module__R4NoHW__resume_wrap p {
+    font-size: 16px;
+  }
+
+  .resume-module__R4NoHW__resume_wrap a:link {
+    font-size: 16px;
+  }
+
+  .resume-module__R4NoHW__resume_wrap a:hover {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .resume-module__R4NoHW__resume_wrap p {
+    font-size: 18px;
+  }
+
+  .resume-module__R4NoHW__resume_wrap a:link {
+    font-size: 18px;
+  }
+
+  .resume-module__R4NoHW__resume_wrap a:visited {
+    font-size: 18px;
+  }
+}
+
+@media print {
+  .resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__controls {
+    display: none !important;
+  }
+
+  .resume-module__R4NoHW__resume_wrap footer {
+    display: none !important;
+  }
+
+  .resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__headerWrap {
+    display: none !important;
+  }
+
+  .resume-module__R4NoHW__resume_wrap .resume-module__R4NoHW__resume_wrap {
+    padding-top: 0;
+  }
+}
+
+/*# sourceMappingURL=src_app_resume_resume_module_a75ce58e.css.map*/
