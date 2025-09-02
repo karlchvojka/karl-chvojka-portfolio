@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/elements/sec-head/sec-head.module.css"],"sourcesContent":[".sect_head_wrap {\n  background-color: var(--cyber-blue);\n  clip-path: polygon(20px 0, 100% 0, 100% 100%, 0 100%, 0 20px);\n  margin-bottom: 20px;\n  padding-bottom: 4px;\n  position: relative;\n\n  .cornerWrapHeader {\n    background-color: var(--dark-blue);\n    clip-path: polygon(20px 0, 100% 0, 100% 100%, 0 100%, 0 20px);\n    height: calc(100% - 32px);\n    position: relative;\n    top: 2px;\n    right: 2px;\n    bottom: 2px;\n    left: 2px;\n    width: calc(100% - 4px);\n    padding: 18px 18px 14px 18px;\n\n    h2 {\n      color: var(--orange);\n    }\n  }\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;AAOE;;;;;;;;;;;;;AAYE"}}]
+}
