@@ -1,0 +1,39 @@
+/* [project]/src/components/layout/projects/projects.module.css [app-client] (css) */
+.projects-module__cUqPrG__projects_section {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.projects-module__cUqPrG__projects_section .projects-module__cUqPrG__projects_wrap {
+  grid-template-columns: 1fr;
+  gap: 20px;
+  display: grid;
+}
+
+@media (min-width: 768px) {
+  .projects-module__cUqPrG__projects_section .projects-module__cUqPrG__projects_wrap {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 992px) {
+  .projects-module__cUqPrG__projects_section {
+    max-width: 90%;
+  }
+
+  .projects-module__cUqPrG__projects_section .projects-module__cUqPrG__projects_wrap {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  .projects-module__cUqPrG__projects_section {
+    max-width: 80%;
+  }
+
+  .projects-module__cUqPrG__projects_section .projects-module__cUqPrG__projects_wrap {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/*# sourceMappingURL=src_components_layout_projects_projects_module_css_e59ae46c._.single.css.map*/
