@@ -4,6 +4,8 @@
 
 /* Framework Imports */
 import Image from "next/image";
+
+import config from "../../../../next.config";
 /* End Framework Imports */
 
 /* Library Imports */
@@ -45,7 +47,7 @@ export default function ProjectCard({
   projTitle,
 }: ProjectCardProps) {
   const cardImgLink = (projImg: string) => {
-    return `/global-assets/images/projects/${projImg}`;
+    return `${config.basePath}/global-assets/images/projects/${projImg}`;
   };
 
   return (

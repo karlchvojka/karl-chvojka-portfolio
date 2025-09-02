@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/styles/variables.css"],"sourcesContent":["/* Global CSS Variable Declarations */\n:root {\n  --cyber-blue: #00abdf;\n  --dark-blue: #010610;\n  --dark-grey: #283040;\n  --orange: #DE6F00;\n  --white: #ffffff;\n}\n"],"names":[],"mappings":"AACA"}}]
-}

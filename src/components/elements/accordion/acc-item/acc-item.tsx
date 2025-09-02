@@ -3,6 +3,7 @@
 /* End NextJS Declarations */
 
 /* NextJS Component Imports */
+import config from "../../../../../next.config";
 import Image from "next/image";
 /* End NextJS Component Imports */
 
@@ -57,6 +58,9 @@ function SectionTitle({ len, title }: { len: number; title: string }) {
  * @returns Accordion Item Component
  */
 export default function AccordionItem({ data }: AccordionItemProps) {
+  const arrowImagelink = () => {
+    return `${config.basePath}/global-assets/images/arrow.png`;
+  };
   return (
     <section className={styles.acc_item_wrap}>
       <section className={styles.acc_item_inner}>
@@ -67,7 +71,7 @@ export default function AccordionItem({ data }: AccordionItemProps) {
           <div>
             <Image
               alt={"Accordion Image Arrow"}
-              src={"/global-assets/images/arrow.png"}
+              src={arrowImagelink()}
               width={23}
               height={19}
             />

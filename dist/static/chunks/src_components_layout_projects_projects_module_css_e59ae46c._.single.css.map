@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/layout/projects/projects.module.css"],"sourcesContent":[".projects_section {\n  margin: 0 auto;\n  padding: 20px;\n\n\n\n  .projects_wrap {\n    column-gap: 20px;\n    display: grid;\n    grid-template-columns: 1fr;\n    row-gap: 20px;\n  }\n}\n\n/* Small Device , Tablets */\n@media (min-width: 768px) {\n  .projects_section .projects_wrap {\n    grid-template-columns: 1fr 1fr;\n  }\n}\n\n/* Medium Devices, Desktops */\n@media (min-width: 992px) {\n  .projects_section {\n    max-width: 90%;\n\n    .projects_wrap {\n      grid-template-columns: 1fr 1fr;\n    }\n  }\n}\n\n/* Large Devices, Wide Screens */\n@media (min-width: 1200px) {\n  .projects_section {\n    max-width: 80%;\n\n    .projects_wrap {\n      grid-template-columns: 1fr 1fr 1fr;\n    }\n  }\n}\n"],"names":[],"mappings":"AAAA;;;;;AAME;;;;;;AASF;EACE;;;;;AAMF;EACE;;;;EAGE;;;;;AAOJ;EACE;;;;EAGE"}}]
-}
