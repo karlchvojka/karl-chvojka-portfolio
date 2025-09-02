@@ -40,7 +40,10 @@ export default function Page() {
         <h1>Karl Chvojka</h1>
         <h2>Front End Web Developer</h2>
         <p>
-          Portfolio: <a href="http://karlchvojka.com">karlchvojka.com</a>
+          Portfolio:{" "}
+          <a href="https://karlchvojka.github.io/karl-chvojka-portfolio">
+            https://karlchvojka.github.io/karl-chvojka-portfolio
+          </a>
         </p>
         <p>
           Github:{" "}
@@ -65,7 +68,7 @@ export default function Page() {
       <section className={styles.profile}>
         <h2>Profile</h2>
         <p>
-          I am a Fullstack Web Developer with over 10 Years of industry
+          I am a Fullstack Web Developer with over 15 Years of industry
           experience building websites, being part of advertising campaigns,
           interacting with traditional media, and working in teams of people
           from a variety of disciplines. I specialize in Frontend Technologies

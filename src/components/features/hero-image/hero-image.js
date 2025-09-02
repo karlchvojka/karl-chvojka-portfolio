@@ -22,7 +22,7 @@ export default function HeroImage() {
       <div>
         <h1> Heya! I&apos;m Karl Chvojka.</h1>
         <p>
-          I am a Full-stack developer with 10 years of industry experience
+          I am a Full-stack developer with 15 years of industry experience
           building websites, advertising campaigns, interacting with traditional
           media, and working in teams of people from a variety of disciplines.
         </p>
