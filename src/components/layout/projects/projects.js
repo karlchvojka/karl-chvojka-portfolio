@@ -1,5 +1,5 @@
 /* NextJS Declarations */
-'use client';
+"use client";
 /* End NextJS Declarations */
 
 /* Component Imports */
@@ -8,11 +8,11 @@ import SectionHeader from "components/elements/sec-head/sec-head.tsx";
 /* End Component Imports */
 
 /* Style Imports */
-import styles from './projects.module.css';
+import styles from "./projects.module.css";
 /* End Style Imports */
 
 /* Asset Imports */
-import projects from 'data/projects';
+import projects from "data/projects";
 /* End Asset Imports */
 
 /**
@@ -28,18 +28,16 @@ export default function Projects() {
       <SectionHeader title="Projects" />
 
       <section className={styles.projects_wrap}>
-        {
-          projects.map(( project, index ) => (
-          <ProjectCard 
+        {projects.map((project, index) => (
+          <ProjectCard
             key={index}
-            projDesc={ project.desc }
-            projGit={ project.git }
-            projImg={ project.image }
-            projTech={ project.tech }
-            projTitle={ project.title }
+            projDesc={project.desc}
+            projGit={project.git}
+            projImg={project.image}
+            projTech={project.tech}
+            projTitle={project.title}
           />
-          ))
-        }
+        ))}
       </section>
     </section>
   );

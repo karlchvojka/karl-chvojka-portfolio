@@ -1,9 +1,5 @@
 /* Font Imports */
-import { 
-  Lato,
-  Montserrat,
-  Roboto_Condensed
-} from 'next/font/google';
+import { Lato, Montserrat, Roboto_Condensed } from "next/font/google";
 /* End Font Imports */
 
 /**
@@ -14,11 +10,11 @@ import {
  * @returns lato object
  */
 export const lato = Lato({
-  display: 'swap',
-  subsets: ['latin'],
-  style: ['normal'],
-  variable: '--font-lato',
-  weight: ['400', '700', '900']
+  display: "swap",
+  subsets: ["latin"],
+  style: ["normal"],
+  variable: "--font-lato",
+  weight: ["400", "700", "900"],
 });
 
 /**
@@ -29,11 +25,11 @@ export const lato = Lato({
  * @returns montserrat_init object
  */
 export const montserrat_init = Montserrat({
-  display: 'swap',
-  subsets: ['latin'],
-  style: ['normal'],
-  variable: '--font-montserrat',
-  weight: ['400', '500', '600', '700', '800', '900'],
+  display: "swap",
+  subsets: ["latin"],
+  style: ["normal"],
+  variable: "--font-montserrat",
+  weight: ["400", "500", "600", "700", "800", "900"],
 });
 
 /**
@@ -42,11 +38,11 @@ export const montserrat_init = Montserrat({
  * Roboto Condensed Font Settings
  *
  * @returns robotoCond object
- */ 
+ */
 export const robotoCond = Roboto_Condensed({
-  display: 'swap',
-  subsets: ['latin'],
-  style: ['normal'],
-  variable: '--font-robotocond',
-  weight: ['400', '500', '600', '700', '800']
+  display: "swap",
+  subsets: ["latin"],
+  style: ["normal"],
+  variable: "--font-robotocond",
+  weight: ["400", "500", "600", "700", "800"],
 });

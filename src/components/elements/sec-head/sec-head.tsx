@@ -1,9 +1,9 @@
 /* NextJS Declarations */
-'use client';
+"use client";
 /* End NextJS Declarations */
 
 /* Style Imports */
-import styles from './sec-head.module.css';
+import styles from "./sec-head.module.css";
 /* End Style Imports */
 
 /* Section Header Prop Types */

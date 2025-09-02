@@ -1,12 +1,12 @@
 /* Normaize import */
 @import 'normalize.css';
 
-/* Global Styles 
+/* Global Styles
  * To be used for Styles that are either used for multiple elements
  * or used in styling the entire app/
  */
 :root {
- --background: #EEF6FC;
+  --background: #EEF6FC;
 }
 
 html, body {

@@ -1,22 +1,26 @@
 /* NextJS Declarations */
-'use client';
+"use client";
 /* End NextJS Declarations */
+
+/* Framework Imports */
+import Image from "next/image";
+/* End Framework Imports */
 
 /* Library Imports */
 import { AiFillGithub } from "react-icons/ai";
 /* End Library Imports */
 
 /* Style Imports */
-import styles from './project-card.module.css';
+import styles from "./project-card.module.css";
 /* End Style Imports */
 
 /* Project Card Prop Types */
 type ProjectCardProps = {
-  projDesc: string,
-  projGit: string,
-  projImg: string,
-  projTech: string,
-  projTitle: string
+  projDesc: string;
+  projGit: string;
+  projImg: string;
+  projTech: string;
+  projTitle: string;
 };
 /* End Project Card Prop Types */
 
@@ -33,28 +37,35 @@ type ProjectCardProps = {
  *
  * @returns Project Card Component
  */
-export default function ProjectCard({ 
-    projDesc,
-    projGit,
-    projImg,
-    projTech,
-    projTitle,
+export default function ProjectCard({
+  projDesc,
+  projGit,
+  projImg,
+  projTech,
+  projTitle,
 }: ProjectCardProps) {
-
-  const cardImgStyle = { backgroundImage: 'url(' + projImg + ')' };
+  const cardImgLink = (projImg: string) => {
+    return `/global-assets/images/projects/${projImg}`;
+  };
 
   return (
     <section className={styles.project_card_wrap}>
       <section className={styles.corner_project_wrap}>
-        <section
-          className={styles.projImgWrap}
-          style={cardImgStyle}
-        ></section>
+        <section className={styles.projImgWrap}>
+          <Image
+            alt={projTitle + `screenshot`}
+            src={cardImgLink(projImg)}
+            fill
+            style={{ objectFit: "cover" }}
+          />
+        </section>
         <h3 id="projTitle">{projTitle}</h3>
         <p id="projDesc">{projDesc}</p>
         <h4>Technology Used:</h4>
         <p id="projTech">{projTech}</p>
-        <a href={projGit} target="blank"><AiFillGithub /> View Project</a>
+        <a href={projGit} target="blank">
+          <AiFillGithub /> View Project
+        </a>
       </section>
     </section>
   );
